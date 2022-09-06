@@ -1,15 +1,15 @@
 {
   "common": {
-    "cancel": "Cancel"
+    "cancel": "キャンセル"
   },
   "welcome": {
-    "message": "Welcome to\nTamDao To Do",
-    "unlock": "UNLOCK",
-    "unlockFailed": "Unlock failed. Please try again!!!"
+    "message": "TamDao To Do\nへようこそ",
+    "unlock": "ロック解除",
+    "unlockFailed": "ロック解除に失敗しました。 もう一度お試しください!!!"
   },
   "task": {
-    "header": "My tasks",
-    "add": "Add a Task",
-    "delete": "Delete task"
+    "header": "私のタスク",
+    "add": "タスクを追加",
+    "delete": "タスクを削除"
   }
 }
