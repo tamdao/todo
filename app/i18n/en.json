@@ -1,0 +1,15 @@
+{
+  "common": {
+    "cancel": "Cancel"
+  },
+  "welcome": {
+    "message": "Welcome to\nTamDao To Do",
+    "unlock": "UNLOCK",
+    "unlockFailed": "Unlock failed. Please try again!!!"
+  },
+  "task": {
+    "header": "My tasks",
+    "add": "Add a Task",
+    "delete": "Delete task"
+  }
+}

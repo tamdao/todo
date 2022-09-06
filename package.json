@@ -2,25 +2,154 @@
   "name": "todo",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "repository": "github:tamdao/todo",
+  "author": {
+    "name": "tamdao",
+    "email": "daotam4536@gmail.com",
+    "url": "https://github.com/tamdao"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "expo",
+    "todo",
+    "redux",
+    "reducer",
+    "state",
+    "typescript",
+    "i18n-js",
+    "persist"
+  ],
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "test": "jest"
   },
   "dependencies": {
+    "@expo/react-native-action-sheet": "^3.13.0",
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "~1.17.3",
+    "@react-navigation/native": "^6.0.12",
+    "@react-navigation/native-stack": "^6.8.0",
+    "@react-navigation/stack": "^6.2.3",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@shopify/flash-list": "1.1.0",
+    "color": "^4.2.3",
+    "dayjs": "^1.11.5",
     "expo": "~46.0.9",
+    "expo-local-authentication": "~12.3.0",
+    "expo-localization": "^13.1.0",
+    "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
+    "i18n-js": "^4.1.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.5",
-    "react-native-web": "~0.18.7"
+    "react-native-get-random-values": "^1.8.0",
+    "react-native-safe-area-context": "4.3.1",
+    "react-native-screens": "~3.15.0",
+    "react-native-svg": "12.3.0",
+    "react-native-web": "~0.18.7",
+    "react-redux": "^8.0.2",
+    "redux-persist": "^6.0.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@types/color": "^3.0.3",
+    "@types/jest": "^29.0.0",
     "@types/react": "~18.0.14",
     "@types/react-native": "~0.69.1",
+    "@types/uuid": "^8.3.4",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-react": "^7.31.5",
+    "eslint-plugin-react-native": "^4.0.0",
+    "jest": "^29.0.2",
+    "jest-environment-jsdom": "^29.0.2",
+    "jest-expo": "^46.0.1",
+    "prettier": "^2.7.1",
+    "react-native-svg-transformer": "^1.0.0",
+    "ts-jest": "^28.0.8",
     "typescript": "~4.3.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:react-native/all",
+      "standard",
+      "prettier"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "react",
+      "react-native"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "project": "./tsconfig.json"
+    },
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      }
+    },
+    "globals": {
+      "__DEV__": false,
+      "jasmine": false,
+      "beforeAll": false,
+      "afterAll": false,
+      "beforeEach": false,
+      "afterEach": false,
+      "test": false,
+      "expect": false,
+      "describe": false,
+      "jest": false,
+      "it": false
+    },
+    "rules": {
+      "@typescript-eslint/ban-ts-ignore": 0,
+      "@typescript-eslint/ban-ts-comment": 0,
+      "@typescript-eslint/explicit-function-return-type": 0,
+      "@typescript-eslint/explicit-member-accessibility": 0,
+      "@typescript-eslint/explicit-module-boundary-types": 0,
+      "@typescript-eslint/indent": 0,
+      "@typescript-eslint/member-delimiter-style": 0,
+      "@typescript-eslint/no-empty-interface": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-object-literal-type-assertion": 0,
+      "@typescript-eslint/no-var-requires": 0,
+      "comma-dangle": 0,
+      "multiline-ternary": 0,
+      "no-undef": 0,
+      "no-unused-vars": 0,
+      "no-use-before-define": "off",
+      "quotes": 0,
+      "react-native/no-raw-text": 0,
+      "react/no-unescaped-entities": 0,
+      "react/prop-types": "off",
+      "space-before-function-paren": 0
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
   },
   "private": true
 }

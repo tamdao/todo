@@ -1,0 +1,15 @@
+{
+  "common": {
+    "cancel": "Hủy"
+  },
+  "welcome": {
+    "message": "Chào mừng bạn đến\nTamDao To Do",
+    "unlock": "MỞ KHÓA",
+    "unlockFailed": "Mở khóa không thành công. Vui lòng thử lại!!!"
+  },
+  "task": {
+    "header": "Nhiệm vụ của tôi",
+    "add": "Thêm Công việc",
+    "delete": "Xóa Công việc"
+  }
+}
