@@ -47,7 +47,7 @@ This is where your screen components will live. A screen is a React component wh
 This is where your `redux-tookit` will live, contains each global slice or config
 
 **theme**
-Here is the themes for your application, including spacing, color, and font.
+Here is the themes for application, including spacing, color, and font.
 
 ## Build Process
 
