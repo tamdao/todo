@@ -22,3 +22,4 @@ jobs:
           token: ${{ secrets.SLACK_TOKEN }}
           path: cloc.txt
           channel: todo
+          title: 'CLOC of Todo application'
