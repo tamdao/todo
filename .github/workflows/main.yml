@@ -8,5 +8,6 @@ jobs:
     name: CLOC
     runs-on: ubuntu-latest
     steps:
-      - name: Count Lines of Code
-        uses: djdefi/cloc-action@4
+      - uses: actions/checkout@v3
+      - name: Count Lines of Code (cloc)
+        uses: djdefi/cloc-action@main
